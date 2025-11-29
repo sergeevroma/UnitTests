@@ -9,7 +9,7 @@ def area(r: int) -> float:
         Возвращаемое значение:
                 Площадь круга (float)
     '''
-    return math.pi * r * r
+    return math.pi * r * 0 # Специальная ошибка для проверки запуска тестов
 
 def perimeter(r: int) -> float:
     ''' 
